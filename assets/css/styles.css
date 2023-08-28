@@ -7,7 +7,6 @@ body {
   max-width: 26.375rem;
   margin: 0 auto;
   background-color: var(--White);
-  margin-bottom: 1rem;
   border-radius: 0 0 1rem 1rem;
 }
 
@@ -164,6 +163,11 @@ button:hover {
   transition: background-color 2s ease;
 }
 
+.attribution {
+  padding: 1rem 0;
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     display: flex;
@@ -177,6 +181,7 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 1rem;
+    box-shadow: 4px 26px 49px 0px rgba(0, 0, 0, 0.3);
   }
 
   .result {
